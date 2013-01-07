@@ -1,4 +1,2 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =2
-let g:netrw_dirhist_1='/home/sven/projects/seventysix/app'
-let g:netrw_dirhist_2='/home/sven/projects/seventysix/app/models'
+let g:netrw_dirhist_cnt =0

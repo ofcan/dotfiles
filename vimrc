@@ -1,3 +1,5 @@
+call pathogen#infect()
+
 :set number
 
 :set tabstop=2
@@ -9,5 +11,3 @@
 :set printoptions=number:y
 
 au BufNewFile,BufRead *.less set filetype=less
-
-call pathogen#infect()
