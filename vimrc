@@ -5,6 +5,7 @@ call pathogen#infect()
 :set tabstop=2
 :set shiftwidth=2
 :set expandtab
+:set foldlevelstart=99
 
 :set autoindent
 
