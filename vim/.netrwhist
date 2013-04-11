@@ -1,5 +1,8 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =3
-let g:netrw_dirhist_1='/home/sven/projects/zip_home'
-let g:netrw_dirhist_2='/home/sven/projects/zip_home/spec'
-let g:netrw_dirhist_3='/home/sven/projects/zip_home'
+let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_1='/home/sven/projects/jekyll/bin'
+let g:netrw_dirhist_2='/home/sven/projects/jekyll'
+let g:netrw_dirhist_3='/home/sven/projects/jekyll/lib'
+let g:netrw_dirhist_4='/home/sven/projects/jekyll/lib/jekyll'
+let g:netrw_dirhist_5='/home/sven/projects/jekyll/lib/jekyll/commands'
+let g:netrw_dirhist_6='/home/sven/dotfiles'

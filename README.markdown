@@ -21,7 +21,7 @@ It stores configuration for .dotfiles (.vimrc, .bashrc, .zshrc, .vim) in a singl
 ### b) updating
 
 * make the changes
-* `./make_sym_links.sh` to execute script and apply changes
 * commit and push
+* note that you don't have to run `./make_sym_links.sh` again. That is only necessary on the 1st configuration
 
 Thanks for using my .dotfiles! If you have any idea on how to improve them, please do tell :)
