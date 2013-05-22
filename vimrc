@@ -20,3 +20,5 @@ let mapleader = "\<Space>"
 nmap <leader>hl :set hlsearch!<CR>
 
 au BufNewFile,BufRead *.less set filetype=less
+
+:set nowrap
