@@ -25,3 +25,6 @@ au BufNewFile,BufRead *.less set filetype=less
 
 " opening NERDTree with <leader>ne
 nmap <leader>ne :NERDTree<cr>
+
+" setting the width limit to 80 characters
+nmap <leader>80 :set tw=80<cr>
