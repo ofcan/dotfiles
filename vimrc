@@ -16,9 +16,12 @@ let mapleader = "\<Space>"
 
 :set printoptions=number:y
 
-" toggling highlighting of searched word with <space>hl
+" toggling highlighting of searched word with <leader>hl
 nmap <leader>hl :set hlsearch!<CR>
 
 au BufNewFile,BufRead *.less set filetype=less
 
 :set nowrap
+
+" opening NERDTree with <leader>ne
+nmap <leader>ne :NERDTree<cr>
