@@ -110,3 +110,9 @@ fi
 alias my_migration="rake db:migrate VERSION=0 && rake db:migrate && rake db:test:prepare && rake db:seed"
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
+
+#Word count of added words in a git diff
+alias gitwa='git diff --word-diff=porcelain | grep -e "^+[^+]" | wc -w'
+
+#Word count of deleted words in a git diff
+alias gitwd='git diff --word-diff=porcelain | grep -e "^-[^-]" | wc -w'

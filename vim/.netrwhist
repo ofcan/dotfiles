@@ -1,11 +1,2 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =9
-let g:netrw_dirhist_1='/home/kira/dotfiles/vim'
-let g:netrw_dirhist_2='/home/kira/dotfiles/vim/ftplugin'
-let g:netrw_dirhist_3='/home/kira/dotfiles/vim'
-let g:netrw_dirhist_4='/home/kira/dotfiles/vim/ftdetect'
-let g:netrw_dirhist_5='/home/kira/dotfiles/vim'
-let g:netrw_dirhist_6='/home/kira/dotfiles'
-let g:netrw_dirhist_7='/home/kira/dotfiles/vim'
-let g:netrw_dirhist_8='/home/kira/dotfiles'
-let g:netrw_dirhist_9='/home/kira/Projects/sam_yonski/_includes'
+let g:netrw_dirhist_cnt =0
