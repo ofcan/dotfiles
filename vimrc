@@ -19,9 +19,12 @@ let mapleader = "\<Space>"
 " toggling highlighting of searched word with <leader>hl
 nmap <leader>hl :set hlsearch!<CR>
 
+"syntax highlighting for less filetypes
 au BufNewFile,BufRead *.less set filetype=less
 
-:set nowrap
+"syntax highlighting for fountain filetypes
+au BufNewFile,BufRead *.fountain set filetype=fountain
+
 
 " opening NERDTree with <leader>ne
 nmap <leader>ne :NERDTree<cr>
@@ -31,3 +34,20 @@ nmap <leader>80 :set tw=80<cr>
 
 " getting the wordcount with <leader>wc
 nmap <leader>wc :!wc %<cr>
+
+
+"--------------------------------------------------
+" FOR WRITING
+
+:set linebreak
+
+" remapping j and k movements to follow 'visual line'
+nnoremap k gk
+nnoremap j gj
+
+"--------------------------------------------------
+" FOR CODING
+
+"toggling nowrap option (good for code), this defaults to on
+":set nowrap
+

@@ -116,3 +116,6 @@ alias gitwa='git diff --word-diff=porcelain | grep -e "^+[^+]" | wc -w'
 
 #Word count of deleted words in a git diff
 alias gitwd='git diff --word-diff=porcelain | grep -e "^-[^-]" | wc -w'
+
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"
