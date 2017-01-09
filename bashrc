@@ -110,6 +110,7 @@ fi
 alias c='clear'
 alias ge='cd ~/Projects/geborgen'
 alias dot='cd ~/dotfiles'
+alias e='exit'
 
 # easy Rails migrations
 alias railsmigrateall="rake db:migrate VERSION=0 && rake db:migrate && rake db:test:prepare && rake db:seed"
