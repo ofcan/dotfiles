@@ -130,6 +130,7 @@ export PATH="/usr/local/heroku/bin:$PATH"
 alias gits="git status"
 alias gitl="git log -10 --oneline --decorate --graph"
 alias gita="git add -A"
+alias gitp="git push"
 
 # Rspec
 alias ber="bundle exec rspec"
