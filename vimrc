@@ -39,7 +39,7 @@ nmap <leader>wc :!wc %<cr>
 "--------------------------------------------------
 " FOR WRITING
 
-:set linebreak
+" :set linebreak
 
 " remapping j and k movements to follow 'visual line'
 nnoremap k gk
@@ -49,5 +49,8 @@ nnoremap j gj
 " FOR CODING
 
 "toggling nowrap option (good for code), this defaults to on
-":set nowrap
+:set nowrap
 
+" saving a file
+nmap <leader>w :w<cr>
+nmap <leader>q :wq<cr>

@@ -106,8 +106,13 @@ fi
 
 # Here is my custom added code
 
-# Making easy on myself to run those migrations all the time
-alias my_migration="rake db:migrate VERSION=0 && rake db:migrate && rake db:test:prepare && rake db:seed"
+# terminal
+alias c='clear'
+alias ge='cd ~/Projects/geborgen'
+alias dot='cd ~/dotfiles'
+
+# easy Rails migrations
+alias railsmigrateall="rake db:migrate VERSION=0 && rake db:migrate && rake db:test:prepare && rake db:seed"
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
 
@@ -119,3 +124,11 @@ alias gitwd='git diff --word-diff=porcelain | grep -e "^-[^-]" | wc -w'
 
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
+
+# Git aliases
+alias gits="git status"
+alias gitl="git log -10 --oneline --decorate --graph"
+alias gita="git add -A"
+
+# Rspec
+alias ber="bundle exec rspec"
