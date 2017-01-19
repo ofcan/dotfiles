@@ -106,6 +106,9 @@ fi
 
 # Here is my custom added code
 
+# Make VIM default editor
+export EDITOR='vim'
+
 # terminal
 alias c='clear'
 alias ge='cd ~/Projects/geborgen'
