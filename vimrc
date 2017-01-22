@@ -27,7 +27,10 @@ au BufNewFile,BufRead *.fountain set filetype=fountain
 
 
 " opening NERDTree with <leader>ne
-nmap <leader>ne :NERDTree<cr>
+nmap <leader>e :NERDTree<cr>
+
+" run NERDTree automatically
+autocmd VimEnter * NERDTree
 
 " setting the width limit to 80 characters with <leader>80
 nmap <leader>80 :set tw=80<cr>

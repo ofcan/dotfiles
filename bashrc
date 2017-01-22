@@ -111,7 +111,7 @@ export EDITOR='vim'
 
 # terminal
 alias c='clear'
-alias ge='cd ~/Projects/geborgen'
+alias ge='tmuxinator start geborgen'
 alias dot='cd ~/dotfiles'
 alias e='exit'
 
@@ -137,3 +137,6 @@ alias gitp="git push"
 
 # Rspec
 alias ber="bundle exec rspec"
+
+# Tmuxinator says to add this in official docs but this file doesn't exist and it all works without it
+# source ~/.bin/tmuxinator.bash
